@@ -1,0 +1,244 @@
+/* Your custom styles */
+
+body {
+	overflow-x: hidden;
+}
+
+#particles-js {
+  position: absolute;
+  left: 10.001%;
+  width: 80%;
+  height: 100%;
+  z-index: 10000;
+  pointer-events: none;
+}
+
+.st0{stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+
+#titulo {
+	animation: fill 2s ease forwards 6s;
+	fill: transparent;
+	width: 100%;
+}
+
+#titulo path:nth-child(1) {
+	stroke-dasharray: 285.86;
+	stroke-dashoffset: 285.86;
+	animation: line-anim 2s ease forwards 1s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(2) {
+	stroke-dasharray: 287.36;
+	stroke-dashoffset: 287.36;
+	animation: line-anim 2s ease forwards 1.2s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(3) {
+	stroke-dasharray: 303.30;
+	stroke-dashoffset: 303.30;
+	animation: line-anim 2s ease forwards 1.4s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(4) {
+	stroke-dasharray: 242.95;
+	stroke-dashoffset: 242.95;
+	animation: line-anim 2s ease forwards 1.6s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(5) {
+	stroke-dasharray: 285.86;
+	stroke-dashoffset: 285.86;
+	animation: line-anim 2s ease forwards 1.8s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(6) {
+	stroke-dasharray: 187.59;
+	stroke-dashoffset: 187.59;
+	animation: line-anim 2s ease forwards 2s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(7) {
+	stroke-dasharray: 125.15;
+	stroke-dashoffset: 125.15;
+	animation: line-anim 2s ease forwards 2.2s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(8) {
+	stroke-dasharray: 242.95;
+	stroke-dashoffset: 242.95;
+	animation: line-anim 2s ease forwards 2.4s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(9) {
+	stroke-dasharray: 302.86;
+	stroke-dashoffset: 302.86;
+	animation: line-anim 2s ease forwards 2.6s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(10) {
+	stroke-dasharray: 223.31;
+	stroke-dashoffset: 223.31;
+	animation: line-anim 2s ease forwards 2.8s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(11) {
+	stroke-dasharray: 254.41;
+	stroke-dashoffset: 254.41;
+	animation: line-anim 2s ease forwards 3s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(12) {
+	stroke-dasharray: 287.36;
+	stroke-dashoffset: 287.36;
+	animation: line-anim 2s ease forwards 3.2s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(13) {
+	stroke-dasharray: 302.86;
+	stroke-dashoffset: 302.86;
+	animation: line-anim 2s ease forwards 3.4s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(14) {
+	stroke-dasharray: 187.59;
+	stroke-dashoffset: 187.59;
+	animation: line-anim 2s ease forwards 3.6s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(15) {
+	stroke-dasharray: 287.36;
+	stroke-dashoffset: 287.36;
+	animation: line-anim 2s ease forwards 3.8s, path 3s ease forwards 7s;
+}
+#titulo path:nth-child(16) {
+	stroke-dasharray: 285.86;
+	stroke-dashoffset: 285.86;
+	animation: line-anim 2s ease forwards 4s, path 3s ease forwards 7s;
+}
+
+@keyframes line-anim {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes fill {
+	from {
+		fill: transparent;
+	}
+	to {
+		fill: #FFFFFF;
+	}
+}
+
+@keyframes path {
+	to {
+		stroke: transparent;
+	}
+}
+
+.animated {
+	animation-duration: 1.5s;
+}
+
+.btn-primary-success {
+	background: #33b5e5;
+	transition: all .3s ease;
+}
+
+.btn-primary-success:hover {
+	background: #ff4444;
+}
+
+.btn-success-primary {
+	background: #ff4444;
+	transition: all .3s ease;
+}
+
+.btn-success-primary:hover {
+	background: #33b5e5;
+}
+
+/*Navbar*/
+
+.navbar-brand {
+	margin-right: 0;
+}
+
+.band-lp .navbar {
+	min-height: 78px
+}
+
+li.nav-item > a.nav-link, div.container > a.navbar-brand {
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: .1rem;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+	color: gray;
+}
+
+.nav-link:hover, .nav-link:active, .nav-link.active {
+	color: white !important;
+}
+
+ul.navbar-nav > li.nav-item > a.nav-link.socialFA {
+	font-size: 1.5rem;
+}
+
+.band-lp .view {
+	background-image: url("../img/jazzguitar.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center; }
+
+.dropshadow {
+	filter: drop-shadow(50rem 50rem 50rem black);
+}
+
+div.captionName {
+	width: 60vw;
+}
+
+h2.captionName {
+	text-transform: uppercase;
+	letter-spacing: .25rem;
+	text-shadow: .1rem .1rem .8rem black;
+}
+
+h4.captionName {
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	word-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+}
+
+.btn.btn-outline-light {
+	font-size: 1rem;
+}
+
+.btn.btn-outline-light:hover {
+	background-color: white !important;
+	color: black !important;
+}
+.backgroundmusic {
+	background-image:url('../img/music1.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center; }
+
+@media (max-width: 767px) and (min-width: 400px), (max-width: 850px) and (min-width: 800px) {
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse {
+		max-height: none; 
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+}
+
+@media (min-width: 992px) {
+	.container.navbarWidth {
+		max-width: 1600px;
+	}
+}
+
+@media (max-width: 799px) and (min-width: 768px) {
+	.band-lp .navbar:not(.top-nav-collapse) {
+		background: rgb(35, 36, 42);
+	}
+}
+
+@media (max-width: 991px) and (min-width: 851px) {
+	.band-lp .navbar:not(.top-nav-collapse) {
+		background: rgb(35, 36, 42);
+	}
+}
